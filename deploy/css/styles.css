@@ -360,16 +360,26 @@ textarea {
 /* =============
     Footer
 ============= */
-#voda {
+#logo {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". voda .";
+  grid-template-areas: ". logo .";
 }
-@media (min-width: 1440px) {
-  #voda {
-    grid-template-columns: auto 1440px auto;
+@media (min-width: 1200px) {
+  #logo {
+    grid-template-columns: auto 1200px auto;
   }
 }
-#voda > div {
-  grid-area: voda;
+#logo > div {
+  grid-area: logo;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#logo > div svg {
+  width: 100%;
+}
+
+#wave-2, #wave-4 {
+  visibility: hidden;
 }
