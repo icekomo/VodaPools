@@ -4,7 +4,7 @@
     grid-template-areas: ". logo .";
     
     @include xl{
-        grid-template-columns: auto 1200px auto;
+        grid-template-columns: auto 800px auto;
     }
 
     >div{
