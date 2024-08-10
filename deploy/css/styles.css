@@ -13,6 +13,8 @@ html {
 :root {
   --white: #fff;
   --black: #000;
+  --blue: #19ADC5;
+  --blueDark: #0E6371;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,9 +329,25 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -360,6 +378,32 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  text-align: center;
+  margin-top: 24px;
+  position: absolute;
+  bottom: 16px;
+  margin: 0 auto;
+  width: 100%;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  list-style: none;
+  margin: 0 8px;
+}
+footer ul li a:link, footer ul li a:visited {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.5625rem;
+  transition: 0.25s;
+}
+footer ul li a:link:hover, footer ul li a:link:active, footer ul li a:visited:hover, footer ul li a:visited:active {
+  color: var(--blue);
+}
+
 #logo {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -372,9 +416,14 @@ textarea {
 }
 #logo > div {
   grid-area: logo;
-  height: 100vh;
+  height: 40vh;
   display: flex;
   align-items: center;
+}
+@media (min-width: 768px) {
+  #logo > div {
+    height: 60vh;
+  }
 }
 #logo > div svg {
   width: 100%;
@@ -382,4 +431,30 @@ textarea {
 
 #wave-2, #wave-4 {
   visibility: hidden;
+}
+
+#contact {
+  text-align: center;
+}
+#contact h1 {
+  color: var(--blueDark);
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+#contact a:link, #contact a:visited {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 16px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.25s;
+  display: inline-block;
+}
+#contact a:link i, #contact a:visited i {
+  margin-left: 8px;
+}
+#contact a:link:hover, #contact a:link:active, #contact a:visited:hover, #contact a:visited:active {
+  background-color: var(--blueDark);
 }

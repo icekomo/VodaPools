@@ -9,9 +9,13 @@
 
     >div{
         grid-area: logo;
-        height: 100vh;
+        height: 40vh;
         display: flex;
         align-items: center;
+
+        @include md{
+            height: 60vh;
+        }
 
         svg{
             width: 100%;

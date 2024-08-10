@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/3c79b583ac.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Voda Animation</title>
+    <title>Voda Pools</title>
 </head>
 
 <body>
@@ -23,7 +27,17 @@
                         <path fill="#24FF00"
                         d="M145.08 8.186h-19.45v49.127h19.82c31.03-.543 30.89-48.984-.37-49.127Z" />
                     </clipPath>
+    
+                    <clipPath id="d-bubble-clip">
+                        <!-- <g class="wave" > -->
+                            <path fill="#19ADC5" d="M205 34.313c-49.2-6-112.5-2.5-138 0v26.5h333.5v-26.5c-44.667 2.5-146.3 6-195.5 0Z"/>
+                            <path fill="#19ADC5" d="M538 34.313c-49.2-6-112.5-2.5-138 0v26.5h333.5v-26.5c-44.667 2.5-146.3 6-195.5 0Z"/>
+                        <!-- </g> -->
+                        
+                    </clipPath>
                 </defs>
+    
+    
                 <g id="logo container" clip-path="url(#clip0_24_20)">
                     <path fill="#fff" d="M0 0h228v88H0z" />
                     <g id="a-container" stroke-width="2" stroke-linecap="round">
@@ -59,7 +73,7 @@
                     <g clip-path="url(#o-clip)">
     
                         <g class="wave-back" fill="#0E6371">
-                            <path id="wave back" fill-rule="evenodd" clip-rule="evenodd" d="M-157 34.334c-25.921-2.516-90.264-6.038-140.276 0-50.011 6.037-153.321 2.515-198.724 0V61h667V34.334c-25.079-2.516-87.335-6.038-135.724 0-48.389 6.037-148.346 2.515-192.276 0Z" fill="#0E6371"/>
+                            <path id="wave-back" fill-rule="evenodd" clip-rule="evenodd" d="M-157 34.334c-25.921-2.516-90.264-6.038-140.276 0-50.011 6.037-153.321 2.515-198.724 0V61h667V34.334c-25.079-2.516-87.335-6.038-135.724 0-48.389 6.037-148.346 2.515-192.276 0Z" fill="#0E6371"/>
                           </g>
                         
                         <g class="wave" fill="#19ADC5">
@@ -69,14 +83,14 @@
                     </g>
     
                     <g clip-path="url(#d-clip)">
-                        <g class="wave-back" fill="#0E6371">
-                            <path id="wave back" fill-rule="evenodd" clip-rule="evenodd" d="M-157 34.334c-25.921-2.516-90.264-6.038-140.276 0-50.011 6.037-153.321 2.515-198.724 0V61h667V34.334c-25.079-2.516-87.335-6.038-135.724 0-48.389 6.037-148.346 2.515-192.276 0Z" fill="#0E6371"/>
+                        <g class="wave-back"  fill="#0E6371">
+                            <path id="wave-back" fill-rule="evenodd" clip-rule="evenodd" d="M-157 34.334c-25.921-2.516-90.264-6.038-140.276 0-50.011 6.037-153.321 2.515-198.724 0V61h667V34.334c-25.079-2.516-87.335-6.038-135.724 0-48.389 6.037-148.346 2.515-192.276 0Z" fill="#0E6371"/>
                         </g>
                         
-                        <g class="wave" fill="#19ADC5">
+                        <g class="wave" id="wave-D" fill="#19ADC5">
                             <path id="water-1" d="M205 34.313c-49.2-6-112.5-2.5-138 0v26.5h333.5v-26.5c-44.667 2.5-146.3 6-195.5 0Z"/>
                             <path id="water-2" d="M538 34.313c-49.2-6-112.5-2.5-138 0v26.5h333.5v-26.5c-44.667 2.5-146.3 6-195.5 0Z"/>
-                          </g>
+                        </g>
                     </g>
     
                     <g id="o-container" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round">
@@ -100,8 +114,6 @@
                             stroke="#044A6A" class="o-lines" />
                     </g>
     
-    
-                    
                     <g id="d-container" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round">
                         <path id="d-dark" d="M145.08 8.186h-19.45v49.127h19.82c31.03-.543 30.89-48.984-.37-49.127v0Z"
                             stroke="#044A6A" />
@@ -116,6 +128,20 @@
                         <path id="d-lihgt-5" d="M145.08 8.186h-19.45v49.127h19.82c31.03-.543 30.89-48.984-.37-49.127v0Z"
                             stroke="#044A6A" class="d-lines" />
                     </g>
+    
+                    <!-- <g clip-path="url(#d-bubble-clip)">
+                        <g id="bubbles_3" fill="#fff">
+                            <path id="Vector_15" d="M158.55 41.902a.39.39 0 1 0 0-.779.39.39 0 0 0 0 .78Z" opacity=".23" class="bubble"/>
+                            <path id="Vector_16"
+                                d="M148.44 43.488c.431 0 .78-.352.78-.788a.784.784 0 0 0-.78-.787.784.784 0 0 0-.78.788c0 .435.349.787.78.787Z"
+                                opacity=".13" class="bubble"/>
+                            <path id="Vector_17"
+                                d="M132.66 45.8c.431 0 .78-.352.78-.787a.784.784 0 0 0-.78-.788.784.784 0 0 0-.78.788c0 .435.349.788.78.788Z"
+                                opacity=".18" class="bubble"/>
+                            <path id="Vector_18" d="M132.95 47.274a.5.5 0 1 0-.002-1.001.5.5 0 0 0 .002 1.001Z" opacity=".23" class="bubble"/>
+                        </g>
+                    </g> -->
+    
                     <g id="bubbles" fill="#fff">
                         <path id="Vector"
                             d="M109.53 39.539c.431 0 .78-.353.78-.788a.784.784 0 0 0-.78-.788.784.784 0 0 0-.78.788c0 .435.349.788.78.788Z"
@@ -181,6 +207,19 @@
             </svg>
         </div>
     </section>
+     <section id="contact">
+             <h1 class="content">Coming Soon</h1>
+             <div class="content">
+                 <a href="tel:">Contact<i class="fa-sharp fa-regular fa-comment"></i></a>
+             </div>
+         </section>
+      <footer>
+                   <h2 class="content">Follow Us!</h2>
+                   <ul class="content">
+                       <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                       <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                   </ul>
+               </footer>
     <script src="js/scripts-min.js"></script>
 </body>
 
