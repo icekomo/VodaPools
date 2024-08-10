@@ -52,9 +52,9 @@ function waterAnimation(){
     gsap.set(".wave",{y:30});
 
     var tl = gsap.timeline();
-    tl.to(".wave",{x:-wave.width / 2, duration: 1.5,ease:"none",y:0})
+    tl.to(".wave",{x:-wave.width / 2, duration: 3, ease:"none",y:0})
         .set(".wave",{x:0})
-        .to(".wave",{x:-wave.width / 2, duration: 3,repeat:-1, ease:"none"});
+        .to(".wave",{x:-wave.width / 2, duration: 3, repeat:-1, ease:"none"});
     return tl;
 }
 
@@ -62,15 +62,15 @@ function waterBackAnimation(){
     console.log("play2");
     gsap.set(".wave-back",{y:30});
     var tl = gsap.timeline();
-    tl.to(".wave-back",{x:waveBack.width / 2, duration: 1.5,ease:"none",y:0})
+    tl.to(".wave-back",{x:waveBack.width / 2, duration: 3,ease:"none",y:0})
         .set(".wave-back",{x:0})
-        .to(".wave-back",{x:waveBack.width / 2, duration: 3,repeat:-1, ease:"none"});
+        .to(".wave-back",{x:waveBack.width / 2, duration: 3, repeat:-1, ease:"none"});
     return tl;
 }
 
 function poolLetters(){
     let tl = gsap.timeline();
-    tl.from(".pool-letter",{duration:.25,y:30, alpha:0, stagger:0.15}, "+=.75")
+    tl.from(".pool-letter",{duration:3,  alpha:0,  ease: "expo.out"}, "+=.75")
 }
 
 
@@ -78,10 +78,11 @@ bubblesArray.forEach((bubble) => {
     var tl = gsap.timeline();
     var randomDistance = gsap.utils.random(10, 50);
     var randomDistanceUp = gsap.utils.random(-5, -20);
+    var randomSideDistanceFrom = gsap.utils.random(10, 30);
     var randomSideDistance = gsap.utils.random(-10, -30);
     var randomTime = gsap.utils.random(1, 5);
 
-    tl.from(bubble,{duration:randomTime, alpha:0, y:randomDistance, stagger: 5, x:randomSideDistance})
+    tl.from(bubble,{duration:randomTime, alpha:0, y:randomDistance, stagger: 5, x:randomSideDistanceFrom})
         .to(bubble,{duration:randomTime, alpha:0, y:randomDistanceUp, x:randomSideDistance});
 });
 
