@@ -6,10 +6,15 @@ import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools,MorphSVGPlugin);
 
 
-var wave = document.querySelector("#wave");
+var wave = document.querySelector(".wave");
 wave = wave.getBBox();
-console.log(wave.width);
 
+var waveBack = document.querySelector(".wave-back");
+waveBack = waveBack.getBBox();
+    
+
+console.log(wave.width);
+console.log(waveBack.width);
 
 
 function logoLetters(){
@@ -37,23 +42,44 @@ function logoLetters(){
 }
 
 function waterAnimation(){
-
-    gsap.set("#wave",{y:30});
+    console.log("play1");
+    gsap.set(".wave",{y:30});
 
     var tl = gsap.timeline();
-    tl.to("#wave",{x:-wave.width / 2, duration: 5,ease:"none",y:0})
-        .set("#wave",{x:0})
-        .to("#wave",{x:-wave.width / 2, duration: 10,repeat:-1, ease:"none"});
+    tl.to(".wave",{x:-wave.width / 2, duration: 1.5,ease:"none",y:0})
+        .set(".wave",{x:0})
+        .to(".wave",{x:-wave.width / 2, duration: 3,repeat:-1, ease:"none"});
     return tl;
+}
+
+function waterBackAnimation(){
+    console.log("play2");
+    gsap.set(".wave-back",{y:30});
+    var tl = gsap.timeline();
+    tl.to(".wave-back",{x:waveBack.width / 2, duration: 1.5,ease:"none",y:0})
+        .set(".wave-back",{x:0})
+        .to(".wave-back",{x:waveBack.width / 2, duration: 3,repeat:-1, ease:"none"});
+    return tl;
+}
+
+function poolLetters(){
+    let tl = gsap.timeline();
+    tl.from(".pool-letter",{duration:.25,y:30, alpha:0, stagger:0.15}, "+=.75")
 }
 
 
 
-
+gsap.set(".wave",{y:30});
 
 var mainTL = gsap.timeline();
 mainTL.add(logoLetters())
-.add(waterAnimation(),"-=0.75");
+.add(waterAnimation(),"-=1.5");  
+
+var backWaterTL = gsap.timeline();
+backWaterTL.add(waterBackAnimation(),"+=.75");
+
+var lettersTL = gsap.timeline();
+lettersTL.add(poolLetters());
 
 
 // GSDevTools.create();
