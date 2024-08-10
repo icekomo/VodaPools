@@ -11,7 +11,13 @@ wave = wave.getBBox();
 
 var waveBack = document.querySelector(".wave-back");
 waveBack = waveBack.getBBox();
-    
+
+
+// const bubbles = document.querySelectorAll('.bubble');
+// const bubblesArray = Array.from(bubbles);
+
+const bubblesArray = gsap.utils.toArray(".bubble");
+console.log(bubblesArray.length);
 
 console.log(wave.width);
 console.log(waveBack.width);
@@ -67,6 +73,17 @@ function poolLetters(){
     tl.from(".pool-letter",{duration:.25,y:30, alpha:0, stagger:0.15}, "+=.75")
 }
 
+
+bubblesArray.forEach((bubble) => {
+    var tl = gsap.timeline();
+    var randomDistance = gsap.utils.random(10, 50);
+    var randomDistanceUp = gsap.utils.random(-5, -20);
+    var randomSideDistance = gsap.utils.random(-10, -30);
+    var randomTime = gsap.utils.random(1, 5);
+
+    tl.from(bubble,{duration:randomTime, alpha:0, y:randomDistance, stagger: 5, x:randomSideDistance})
+        .to(bubble,{duration:randomTime, alpha:0, y:randomDistanceUp, x:randomSideDistance});
+});
 
 
 gsap.set(".wave",{y:30});
