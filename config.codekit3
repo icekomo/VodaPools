@@ -51,6 +51,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/voda-logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 27582,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/voda-logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
