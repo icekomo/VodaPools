@@ -7,7 +7,7 @@
       "uuidString" : "2D98CC5F-45F9-46F2-8AEF-2F553619B0BE"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34680",
   "files" : {
     "\/assets\/logo-container.svg" : {
       "ft" : 2097152,
@@ -154,196 +154,170 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_base.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_normalize.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/helpers\/_variables.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_footer.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/sections\/_content.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_content.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/sections\/_logo.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_logo.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/css\/styles.css",
       "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/gsap-bonus.tgz" : {
       "cB" : 0,
@@ -887,10 +861,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -942,10 +912,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -1088,7 +1054,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -1173,7 +1140,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -1541,7 +1509,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -1832,11 +1801,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -1951,6 +1918,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -1971,6 +1939,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
